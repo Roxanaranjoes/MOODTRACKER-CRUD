@@ -39,7 +39,7 @@ MoodTracker/
 
 ---
 
-## 🧪 How to Run Locally
+##  How to Run Locally
 
 1. **Clone the repository or download the ZIP**
 2. **Install JSON Server globally (if you haven't):**
@@ -54,7 +54,7 @@ MoodTracker/
 
 ---
 
-## 🌐 API Structure (JSON Server)
+##  API Structure (JSON Server)
 
 ```json
 [
@@ -69,15 +69,15 @@ MoodTracker/
 
 ---
 
-## 📬 Feedback to Users
+##  Feedback to Users
 
-- ✅ Toast notifications for success/error
-- 💡 Emotion-based recommendations appear after each registration
-- 🎨 Colorful and friendly UI for emotional comfort
+-  Toast notifications for success/error
+-  Emotion-based recommendations appear after each registration
+-  Colorful and friendly UI for emotional comfort
 
 
 ---
 
-## ✨ Author
+##  Author
 
 Roxana Naranjo Estrada
