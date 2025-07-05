@@ -1,0 +1,58 @@
+{
+  "emociones": [
+    {
+      "id": "2",
+      "fecha": "2025-06-04",
+      "tipo": "ansioso",
+      "nota": ""
+    },
+    {
+      "id": "efc4",
+      "fecha": "2025-07-05",
+      "tipo": "calmado",
+      "nota": "Hola"
+    },
+    {
+      "id": "59b8",
+      "fecha": "2025-07-01",
+      "tipo": "feliz",
+      "nota": ""
+    },
+    {
+      "id": "5a56",
+      "fecha": "2025-07-01",
+      "tipo": "feliz",
+      "nota": ""
+    },
+    {
+      "id": "d7f3",
+      "fecha": "2025-07-01",
+      "tipo": "feliz",
+      "nota": ""
+    },
+    {
+      "id": "9da0",
+      "fecha": "2025-07-12",
+      "tipo": "feliz",
+      "nota": ""
+    },
+    {
+      "id": "6c61",
+      "fecha": "2025-07-02",
+      "tipo": "feliz",
+      "nota": ""
+    },
+    {
+      "id": "328e",
+      "fecha": "2025-07-05",
+      "tipo": "enojado",
+      "nota": ""
+    },
+    {
+      "id": "4150",
+      "fecha": "2025-07-11",
+      "tipo": "feliz",
+      "nota": ""
+    }
+  ]
+}

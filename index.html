@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>MoodTracker 🌱</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🌱 MoodTracker - Diario Emocional</h1>
+
+    <!-- Emotion form -->
+    <form id="mood-form">
+      <input type="date" id="fecha" required>
+      <select id="tipo" required>
+        <option value="">Elige emoción</option>
+        <option value="feliz">😊 Feliz</option>
+        <option value="triste">😢 Triste</option>
+        <option value="ansioso">😰 Ansioso</option>
+        <option value="enojado">😡 Enojado</option>
+        <option value="calmado">😌 Calmado</option>
+      </select>
+      <input type="text" id="nota" placeholder="Escribe una nota (opcional)">
+      <button type="submit">Registrar</button>
+    </form>
+
+    <!-- Initial empty state -->
+    <p id="estado-vacio" class="vacio">No hay emociones registradas aún.</p>
+
+    <!-- Calendar navigation -->
+    <div class="calendario-header">
+      <button id="mes-anterior" class="btn-nav">⏮ Anterior</button>
+      <h2 id="titulo-mes">Julio 2025</h2>
+      <button id="mes-siguiente" class="btn-nav">Siguiente ⏭</button>
+    </div>
+
+    <!-- Calendar -->
+    <div id="calendario"></div>
+
+    <!-- Chart -->
+    <div class="grafico-container">
+      <canvas id="graficoEmociones"></canvas>
+    </div>
+  </div>
+
+  <!-- Toast notifications -->
+  <div id="toast" class="toast"></div>
+
+  <!-- Modal for emotion details -->
+  <div id="modal" class="modal">
+    <div class="modal-content" id="modal-contenido">
+      <span id="modal-cerrar" class="cerrar">&times;</span>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
+
