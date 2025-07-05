@@ -54,7 +54,7 @@ MoodTracker/
 
 ---
 
-## 🌐 API Structure (JSON Server)
+##  API Structure (JSON Server)
 
 ```json
 [
